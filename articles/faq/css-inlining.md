@@ -3,7 +3,7 @@ title: "CSS Inlining"
 description: "When creating HTML content for email CSS is often an issue Many email clients use HTML themselves so special care is needed to avoid clashing with their page layout and style The traditional solution is to ensure your email's HTML uses only inline styles that is CSS is used only..."
 ---
 
-When creating HTML content for email, CSS is often an issue.  Many email clients use HTML themselves so special care is needed to avoid clashing with their page layout and style.  The traditional solution is to ensure your email's HTML uses only *inline* styles; that is, CSS is used only within *style* attributes on your HTML tags themselves.
+When creating HTML content for email, CSS is often an issue.  Many email clients use HTML themselves so special care is needed to avoid clashing with their page layout and style.  The traditional solution is to ensure your email's HTML uses only *inline* styles; that is, CSS is used only within *style* attributes on your HTML tags themselves.  At this time, inline_css will only support CSS that is used only within *style* attributes on your HTML tags.  Linked style sheets are not supported.
 
 Since this can be an onerous task, SparkPost includes an CSS inlining feature to automate this at transmission time.
 
